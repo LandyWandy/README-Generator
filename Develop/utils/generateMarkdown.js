@@ -24,7 +24,7 @@ function renderLicenseSection(license) {
     return "";
   }
 
-  return `## License\nThis project is licensed under the ${license} License. For more information, see [${renderLicenseLink(license)}](${renderLicenseLink(license)}).`;
+  return `## License\nThis project is licensed under the ${license} License. For more information, see [${renderLicenseLink(license)}](${renderLicenseBadge(license)}).`;
 }
 
 // TODO: Create a function to generate markdown for README
